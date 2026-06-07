@@ -1,8 +1,7 @@
-\# OcuScan: A Classical Image Processing Framework for Retinal Vessel and Optic Disc Analysis
+OcuScan: A Classical Image Processing Framework for Retinal Vessel and Optic Disc Analysis
 
 
-
-\## Overview
+Overview
 
 
 
@@ -14,133 +13,129 @@ The system processes retinal fundus images through a complete end-to-end pipelin
 
 
 
-\---
 
 
 
-\## Key Features
+Key Features
 
 
 
-\* Green channel based retinal image enhancement
+Green channel based retinal image enhancement
 
-\* CLAHE contrast enhancement
+CLAHE contrast enhancement
 
-\* Retinal vessel segmentation using morphological image processing
+Retinal vessel segmentation using morphological image processing
 
-\* Optic disc detection and localization
+Optic disc detection and localization
 
-\* Retinal biomarker extraction
+Retinal biomarker extraction
 
-\* XGBoost-based classification
+XGBoost-based classification
 
-\* Interactive clinical dashboard
+Interactive clinical dashboard
 
-\* Lightweight CPU-based deployment
+Lightweight CPU-based deployment
 
-\* Interpretable and explainable outputs
+Interpretable and explainable outputs
 
 
 
-\---
 
 
 
-\## Pipeline
 
+Pipeline
 
 
-\### Stage 1: Image Preprocessing
+Stage 1: Image Preprocessing
 
 
 
-\* Green Channel Extraction
+Green Channel Extraction
 
-\* CLAHE Enhancement
+CLAHE Enhancement
 
-\* Gaussian Filtering
+Gaussian Filtering
 
 
 
-\### Stage 2: Vessel Segmentation
+Stage 2: Vessel Segmentation
 
 
 
-\* Morphological Top-Hat Filtering
+Morphological Top-Hat Filtering
 
-\* Adaptive Thresholding
+Adaptive Thresholding
 
-\* Morphological Refinement
+Morphological Refinement
 
 
 
-\### Stage 3: Optic Disc Detection
+Stage 3: Optic Disc Detection
 
 
 
-\* Disc center localization
+Disc center localization
 
-\* Anatomical landmark identification
+Anatomical landmark identification
 
 
 
-\### Stage 4: Feature Extraction
+Stage 4: Feature Extraction
 
 
 
-\* Vessel Density
+Vessel Density
 
-\* Vessel Pixel Count
+Vessel Pixel Count
 
-\* Vessel Length
+Vessel Length
 
-\* Disc Radius
+Disc Radius
 
-\* Disc Area
+Disc Area
 
 
 
-\### Stage 5: Classification
+Stage 5: Classification
 
 
 
-\* XGBoost Machine Learning Classifier
+XGBoost Machine Learning Classifier
 
-\* Normal / Abnormal Screening
+Normal / Abnormal Screening
 
 
 
-\---
 
 
+Technologies Used
 
-\## Technologies Used
 
 
+Python
 
-\* Python
+OpenCV
 
-\* OpenCV
+NumPy
 
-\* NumPy
+Pandas
 
-\* Pandas
+Scikit-Learn
 
-\* Scikit-Learn
+XGBoost
 
-\* XGBoost
+Matplotlib
 
-\* Matplotlib
+Tkinter
 
-\* Tkinter
 
 
 
-\---
 
 
 
-\## Dataset
+Dataset
 
 
 
@@ -148,21 +143,20 @@ The framework was developed and evaluated using retinal fundus image datasets:
 
 
 
-\* DRIVE Dataset
+DRIVE Dataset
 
-\* STARE Dataset
-
-
-
-\*\*Note:\*\* Datasets are not included in this repository.
+STARE Dataset
 
 
 
-\---
+Note: Datasets are not included in this repository.
 
 
 
-\## Project Structure
+
+
+
+Project Structure
 
 
 
@@ -188,11 +182,11 @@ utils/             - Utility scripts and pipeline execution
 
 
 
-\## How to Run
+How to Run
 
 
 
-\### Install Dependencies
+Install Dependencies
 
 
 
@@ -204,7 +198,7 @@ pip install -r requirements.txt
 
 
 
-\### Run the Pipeline
+Run the Pipeline
 
 
 
@@ -216,59 +210,59 @@ python run\_stare\_pipeline.py
 
 
 
-\---
 
 
 
-\## Results
+
+Results
 
 
 
-\* Automated retinal vessel extraction
+Automated retinal vessel extraction
 
-\* Optic disc localization
+Optic disc localization
 
-\* Biomarker computation
+Biomarker computation
 
-\* Clinical risk prediction
+Clinical risk prediction
 
-\* Interactive visualization dashboard
-
-
-
-\---
+Interactive visualization dashboard
 
 
 
-\## Future Improvements
 
 
 
-\* Deep learning integration
 
-\* Multi-disease classification
-
-\* Web deployment
-
-\* Mobile deployment
-
-\* EHR integration
+Future Improvements
 
 
 
-\---
+Deep learning integration
+
+Multi-disease classification
+
+Web deployment
+
+Mobile deployment
+
+EHR integration
 
 
 
-\## Authors
 
 
 
-\* Chitira B
 
-\* Deepasri M
+Authors
 
-\* Mathumithaa S
+
+
+Chitira B
+
+Deepasri M
+
+Mathumithaa S
 
 
 
