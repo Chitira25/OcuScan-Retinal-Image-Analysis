@@ -260,13 +260,9 @@ Authors
 
 Chitira B
 
-Deepasri M
-
-Mathumithaa S
 
 
 
-Department of Biomedical Engineering
 
 
 
